@@ -3,14 +3,18 @@ using namespace std;
 
 int main()
 {
+    // Create some variables.
     double earthWeight, weight;
     int planet = 7;
+    // Taking weight as input from the user.
     cout << "Enter the weight on Earth: ";
     cin >> earthWeight;
 
+    // Giving the lists of planets.
     cout << " 1. Mercury\n 2. Venus\n 3. Mars\n 4. Jupiter\n 5. Saturn\n 6. Uranus\n 7. Neptune\n"
          << endl;
 
+    // Taking planet number as input, compairing with above table. 
     cout << "Enter a number for the planet you wants to fight on: " << endl;
     cin >> planet;
 
